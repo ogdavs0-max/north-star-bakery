@@ -3,65 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>North Star Bakery</title>
-  <!-- Google Fonts for Playfair Display and Inter -->
+  <title>North Star Bakery - Products</title>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   
-  <!-- External CSS Link -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="images/bakery-logo_c.png" alt="North Star Bakery golden wheat logo">
-        <h1>Our Handcrafted Products</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Product Categories</h2>
-            <article>
-                <h3>Artisan Breads</h3>
-                <p>Traditional sourdough, baguettes, and whole-grain loaves baked fresh every morning.</p>
-                <p>Pricing range: $5.00 – $9.00 per loaf</p>
-            </article>
-            <article>
-                <h3>Pastries</h3>
-                <p>Flaky butter croissants, fruit Danishes, and sweet morning rolls.</p>
-                <p>Pricing range: $3.00 – $6.00 each</p>
-            </article>
-            <article>
-                <h3>Cakes</h3>
-                <p>Custom celebration cakes, seasonal fruit tarts, and rich chocolate gateaux.</p>
-                <p>Pricing range: $35.00 – $75.00</p>
-            </article>
-        </section>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <section>
-            <h2>Freshly Baked Breads</h2>
-            <img src="images/bakery-bread.jpg" alt="Assorted freshly baked artisan breads displayed on a wooden baker's table">
-        </section>
+  <main>
+    <h1>Our Handcrafted Products</h1>
+    <p>Explore our daily fresh bakes made with love and tradition.</p>
 
-        <section>
-            <figure>
-                <img src="images/bakery-signature-loaf_c.png" alt="Golden-brown artisan signature sourdough loaf scored with a star pattern">
-                <figcaption>Our famous Signature Sourdough Loaf, slow-fermented for 36 hours.</figcaption>
-            </figure>
-        </section>
-    </main>
+    <div class="product-grid">
+      <div class="product-card">
+        <h3>Artisan Sourdough</h3>
+        <p>Traditional slow-fermented sourdough with a crispy crust.</p>
+      </div>
+      <div class="product-card">
+        <h3>Butter Croissant</h3>
+        <p>Flaky, golden layers baked fresh every morning.</p>
+      </div>
+      <div class="product-card">
+        <h3>Celebration Cakes</h3>
+        <p>Custom baked goods designed for your special events.</p>
+      </div>
+    </div>
+  </main>
 
-    <footer>
-        <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
-    </footer>
-<script src="script.js"></script>
+  <footer>
+    <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript Link -->
+  <script src="script.js"></script>
 </body>
 </html>
