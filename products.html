@@ -24,20 +24,46 @@
 
   <main>
     <h1>Our Handcrafted Products</h1>
-    <p>Explore our daily fresh bakes made with love and tradition.</p>
+    <p>Explore our daily fresh bakes made with love and tradition. Use the filters below to find items that fit your dietary needs!</p>
 
+    <!-- Interactive Filter Buttons -->
+    <div class="filter-container" style="margin: 1.5rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+      <button class="filter-btn btn-primary" data-filter="all">All Items</button>
+      <button class="filter-btn btn-primary" data-filter="gluten-free">Gluten-Free</button>
+      <button class="filter-btn btn-primary" data-filter="vegan">Vegan</button>
+      <button class="filter-btn btn-primary" data-filter="regular">Regular</button>
+    </div>
+
+    <!-- Product Grid with Category Data Attributes -->
     <div class="product-grid">
-      <div class="product-card">
+      <div class="product-card" data-category="regular">
         <h3>Artisan Sourdough</h3>
         <p>Traditional slow-fermented sourdough with a crispy crust.</p>
+        <p><strong>Category:</strong> Regular | <strong>Price:</strong> $7.00</p>
       </div>
-      <div class="product-card">
+
+      <div class="product-card" data-category="gluten-free">
+        <h3>Gluten-Free Country Loaf</h3>
+        <p>Fluffy, artisanal bread baked with alternative ancient grains.</p>
+        <p><strong>Category:</strong> Gluten-Free | <strong>Price:</strong> $9.00</p>
+      </div>
+
+      <div class="product-card" data-category="regular">
         <h3>Butter Croissant</h3>
         <p>Flaky, golden layers baked fresh every morning.</p>
+        <p><strong>Category:</strong> Regular | <strong>Price:</strong> $4.00</p>
       </div>
-      <div class="product-card">
+
+      <div class="product-card" data-category="vegan">
+        <h3>Vegan Morning Bun</h3>
+        <p>Sweet pastry glazed with cinnamon and plant-based butter.</p>
+        <p><strong>Category:</strong> Vegan | <strong>Price:</strong> $4.50</p>
+      </div>
+
+      <div class="product-card" data-category="regular">
         <h3>Celebration Cakes</h3>
         <p>Custom baked goods designed for your special events.</p>
+        <p><strong>Category:</strong> Regular | <strong>Price:</strong> $45.00</p>
       </div>
     </div>
   </main>
