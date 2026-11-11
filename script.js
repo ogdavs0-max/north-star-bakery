@@ -5,7 +5,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("North Star Bakery website loaded successfully!");
 
-  // 1. Restore saved form data or preferences from localStorage if available
+  // 1. Restore saved form data or email from localStorage if available
   const savedEmail = localStorage.getItem("bakery_user_email");
   const emailInput = document.getElementById("email");
   if (savedEmail && emailInput) {
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelectorAll(".error-msg").forEach(el => el.remove());
 
       // Validate Full Name
-      const fullNameInput = document.getElementById("fullname") || contactForm.querySelector("input[type='text']");
+      const fullNameInput = document.getElementById("fullname");
       if (fullNameInput && fullNameInput.value.trim() === "") {
         isValid = false;
         showError(fullNameInput, "Please enter your full name.");
