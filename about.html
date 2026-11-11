@@ -3,56 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>North Star Bakery - Home</title>
+  <title>North Star Bakery - About</title>
   
-  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   
-  <!-- PUT YOUR CSS LINK HERE -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="images/bakery-logo_c.png" alt="North Star Bakery golden wheat logo">
-        <h1>About North Star Bakery</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Story of the Bakery</h2>
-            <p>Founded in 2018, North Star Bakery started as a small neighborhood passion project with a simple goal: to bring people together through the comforting smell and taste of authentic, handmade bread.</p>
-        </section>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <section>
-            <h2>Sourcing Philosophy</h2>
-            <p>We partner exclusively with local family farms and organic millers in our region. Quality ingredients mean better flavor and a stronger, more sustainable local community.</p>
-        </section>
+  <main>
+    <section class="about-section">
+      <h1>About North Star Bakery</h1>
+      <p>Founded in 2018, North Star Bakery started as a small neighborhood passion project with a simple goal: to bring people together through the comforting smell and taste of authentic, handmade bread.</p>
+    </section>
 
-        <section>
-            <h2>Staff Highlights</h2>
-            <p>Head Baker Elena brings over 15 years of European artisan baking experience, while our front-of-house team ensures every customer is greeted with a warm smile and personalized recommendation.</p>
-        </section>
+    <section class="about-section">
+      <h2>Our Sourcing Philosophy</h2>
+      <p>We partner exclusively with local family farms and organic millers in our region. Quality ingredients mean better flavor and a stronger, more sustainable local community.</p>
+    </section>
+  </main>
 
-        <section>
-            <h2>Behind the Scenes</h2>
-            <video controls width="400">
-                <source src="images/bakery-behind-scenes.mp4" type="video/mp4">
-                Your browser does not support the video element. <a href="images/bakery-behind-scenes.mp4">Download the behind-scenes video</a>
-            </video>
-        </section>
-    </main>
+  <footer>
+    <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
+  </footer>
 
-    <footer>
-        <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
-    </footer>
+  <!-- JavaScript Link -->
   <script src="script.js"></script>
 </body>
 </html>
