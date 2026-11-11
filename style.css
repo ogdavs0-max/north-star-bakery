@@ -115,19 +115,16 @@ footer {
    4. RESPONSIVE MEDIA QUERY (Desktop Viewports)
    ================================---------- */
 @media (min-width: 768px) {
-  /* Switch navigation to a horizontal Flexbox layout on larger screens */
   nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 
-  /* Adjust main container spacing */
   main {
     padding: 3rem 2rem;
   }
 
-  /* Create multi-column layouts for product grids using Flexbox */
   .product-grid {
     display: flex;
     flex-wrap: wrap;
