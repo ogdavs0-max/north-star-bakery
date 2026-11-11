@@ -3,67 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>North Star Bakery</title>
-  <!-- Google Fonts for Playfair Display and Inter -->
+  <title>North Star Bakery - Home</title>
+  
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   
-  <!-- External CSS Link -->
+  <!-- External CSS Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="images/bakery-logo_c.png" alt="North Star Bakery golden wheat logo">
-        <h1>Welcome to North Star Bakery</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Welcome Message</h2>
-            <p>Welcome to North Star Bakery! We bake fresh, handcrafted artisan goods daily using locally sourced ingredients to bring warmth to our neighborhood.</p>
-        </section>
+  <header>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <section>
-            <h2>What We’re Known For</h2>
-            <p>Our community loves us for our slow-fermented sourdoughs, flaky butter croissants, and custom celebration cakes made with love and tradition.</p>
-        </section>
+  <main>
+    <section class="hero-section">
+      <h1>Welcome to North Star Bakery</h1>
+      <p>We bake fresh, handcrafted artisan goods daily using locally sourced ingredients to bring warmth to our neighborhood.</p>
+    </section>
 
-        <section>
-            <h2>Featured Item of the Week</h2>
-            <p>Try our freshly baked Rosemary Garlic Focaccia—crispy on the outside, fluffy on the inside!</p>
-            <picture>
-                <source media="(min-width: 800px)" srcset="images/bakery-feature-large.jpg">
-                <img src="images/bakery-feature-small_c.png" alt="Close-up of our weekly featured Rosemary Garlic Focaccia with fresh herbs">
-            </picture>
-        </section>
+    <section class="product-card">
+      <h2>Featured Item of the Week</h2>
+      <p>Try our freshly baked Rosemary Garlic Focaccia—crispy on the outside, fluffy on the inside!</p>
+    </section>
 
-        <section>
-            <h2>Hours and Location</h2>
-            <p>Visit us at 123 Baker Street. Open Tuesday through Sunday, 7:00 AM – 3:00 PM.</p>
-            <img src="images/bakery-storefront_c.png" alt="Charming storefront of North Star Bakery with outdoor seating and a welcoming sign">
-        </section>
+    <section class="about-section">
+      <h2>Hours and Location</h2>
+      <p>Visit us at 123 Baker Street. Open Tuesday through Sunday, 7:00 AM – 3:00 PM.</p>
+    </section>
+  </main>
 
-        <section>
-            <h2>Welcome Audio Message</h2>
-            <audio controls>
-                <source src="images/bakery-welcome.mp3" type="audio/mpeg">
-                Your browser does not support the audio element. <a href="images/bakery-welcome.mp3">Download the audio welcome message</a>
-            </audio>
-        </section>
-    </main>
+  <footer>
+    <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
+  </footer>
 
-    <footer>
-        <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
-    </footer>
-<script src="script.js"></script>
+  <!-- JavaScript Link -->
+  <script src="script.js"></script>
 </body>
 </html>
